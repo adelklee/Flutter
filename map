@@ -1,0 +1,6 @@
+void main() {
+  var test = {'a': 123, 'b': 444};
+
+  test['a'] = 333;
+  print(test.length);
+}
