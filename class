@@ -1,0 +1,19 @@
+class Person {
+  final String name;
+  final String surname;
+
+  Person(this.name, this.surname);
+
+  /*
+  Person(required String name, required String surname) {
+    this.name = name;
+    this.surname = surname;
+  }
+  */
+}
+
+void main() {
+  var p1 = Person('Ingyu', 'Lee');
+
+  print(p1.name);
+}
