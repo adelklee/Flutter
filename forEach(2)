@@ -1,0 +1,22 @@
+bool printElement(int element) {
+  if (element % 2 == 0) {
+    print(element);
+    return true;
+  }
+
+  return false;
+}
+
+void main() {
+  var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  int count = 0;
+
+  // Pass printElement as a parameter.
+
+  // list.forEach((p) => count += printElement(p) ? 1 : 0);
+  list.forEach((p) => count += (printElement(p) == true) ? 1 : 0);
+  // list.forEach(printElement); 밑에 꺼랑 같은 의미
+  // list.forEach((p) => printElement(p));
+
+  print('짝수의 총 갯수는 ' '$count' '입니다.');
+}
