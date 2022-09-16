@@ -1,0 +1,17 @@
+int count = 0;
+
+void printElement(int element) {
+  if (element % 2 == 0) {
+    count++;
+    print(element);
+  }
+}
+
+void main() {
+  var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  // Pass printElement as a parameter.
+
+  list.forEach((printElement));
+  print('짝수의 총 갯수는 ' '$count' '입니다.');
+}
