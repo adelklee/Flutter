@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587147915192",
+    "project_id": "events-393d1",
+    "storage_bucket": "events-393d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587147915192:android:e92a9d24a362574e73694d",
+        "android_client_info": {
+          "package_name": "com.kanonphil.evetns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587147915192-81e3esklknai9bm3f80077nft13om3bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2YCxCzIbOB8SsTh3Bb7WLmaYDoAOUxmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587147915192-81e3esklknai9bm3f80077nft13om3bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
